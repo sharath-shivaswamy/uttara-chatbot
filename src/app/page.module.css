@@ -1,0 +1,44 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.mainContent {
+  display: flex;
+  flex-grow: 1;
+}
+
+.chatBox {
+  width: 50%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.rightSection {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.box {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.topBox {
+  background-color: #e1e1e1;
+}
+
+.bottomBox {
+  background-color: #d1d1d1;
+}

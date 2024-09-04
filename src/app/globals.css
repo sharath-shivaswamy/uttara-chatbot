@@ -1,0 +1,45 @@
+body, html, #root, .app {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.main-content {
+  display: flex;
+  flex-grow: 1;
+}
+
+.chat-box {
+  width: 50%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.box {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.top-box {
+  background-color: #e1e1e1;
+}
+
+.bottom-box {
+  background-color: #d1d1d1;
+}
