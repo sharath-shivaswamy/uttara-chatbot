@@ -1,9 +1,9 @@
-import styles from "./page.module.css";
+import styles from "./chatbox.module.css";
 
 export default function ChatBox() {
   return (
-    <div className={styles.card}>
-      <h2>Chat</h2>
+    <div>
+      <h2>Chat Box</h2>
     </div>
   );
 }

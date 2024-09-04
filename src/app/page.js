@@ -83,6 +83,7 @@ export default function Home() {
         <div className={styles.chatBox}>
           <h2>Chat Box</h2>
           {/* Chat box content goes here */}
+          <ChatBox />
         </div>
         <div className={styles.rightSection}>
           <div className={`${styles.box} ${styles.topBox}`}>
