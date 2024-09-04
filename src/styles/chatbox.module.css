@@ -2,6 +2,9 @@
   /* width: 100%; */
   background-color: #f1f1f1;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .form {
@@ -46,4 +49,6 @@
     flex-grow: 1; /* Ensure the paragraph also fills the space */
   }
 
-  
+  .readOnlyOutputTextArea{
+    white-space: pre-wrap;
+  }
